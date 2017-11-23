@@ -25,6 +25,11 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay/
 MOD_TGT := /system/lib/modules
 MOD_SRC := $(LOCAL_PATH)/prebuilt/modules
 
+# LANGUAGE
+PRODUCT_DEFAULT_LANGUAGE := ru
+PRODUCT_DEFAULT_REGION := RU
+PRODUCT_LOCALES := ru_RU en_US uk_UA
+
 PRODUCT_PROPERTY_OVERRIDES := \
         service.adb.root=1 \
         persist.sys.root_access=1 \
