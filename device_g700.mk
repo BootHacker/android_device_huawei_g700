@@ -31,6 +31,7 @@ PRODUCT_DEFAULT_REGION := RU
 PRODUCT_LOCALES := ru_RU en_US uk_UA
 
 PRODUCT_PROPERTY_OVERRIDES := \
+        debug.egl.recordable.rgba8888=1 \
         service.adb.root=1 \
         persist.sys.root_access=1 \
 	fmradio.driver.chip=3 \
@@ -63,7 +64,7 @@ PRODUCT_PROPERTY_OVERRIDES := \
 	ro.mediatek.wlan.p2p=1 \
 	ro.mediatek.wlan.wsc=1 \
 	ro.opengles.version=131072 \
-	ro.sf.lcd_density=320 \
+	ro.sf.lcd_density=275 \
 	ro.telephony.ril_class=MediaTekRIL \
         ro.telephony.ril.config=fakeiccid \
 	wifi.direct.interface=p2p0 \
