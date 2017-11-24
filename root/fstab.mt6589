@@ -9,6 +9,10 @@
 /emmc@protect_f     /protect_f      ext4    noatime,nosuid,nodev,noauto_da_alloc,discard	wait,check
 /emmc@protect_s     /protect_s      ext4    noatime,nosuid,nodev,noauto_da_alloc,discard	wait,check
 
+# Fix for build
+/dev/bootimg      /boot               emmc      defaults          			defaults
+/dev/recovery     /recovery           emmc      defaults                                defaults
+
 # cwm hack: access /storage/sdcard0 through emmc to find cmupdater directory
 /dev/block/mmcblk0p8 /emmc            vfat      defaults                                recoveryonly
 
