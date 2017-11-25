@@ -31,7 +31,6 @@ PRODUCT_DEFAULT_REGION := RU
 PRODUCT_LOCALES := ru_RU en_US uk_UA
 
 PRODUCT_PROPERTY_OVERRIDES := \
-        debug.egl.recordable.rgba8888=1 \
         service.adb.root=1 \
         persist.sys.root_access=1 \
 	fmradio.driver.chip=3 \
